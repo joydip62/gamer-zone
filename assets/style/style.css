@@ -16,21 +16,37 @@ h4 {
   font-style: normal;
   line-height: normal;
 }
+p {
+  color: #534c64;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 30px;
 }
-.gradient-color {
+.gradient {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-/* header part */
-header {
-  padding: 30px;
+.btn {
+  border-radius: 48px;
+  padding: 21px 40px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
 }
+/* header part */
+
 header .header-container {
   display: flex;
   justify-content: space-between;
@@ -51,7 +67,6 @@ header .header-container .logo h3 {
 header .header-container .logo h3 span {
   color: #f948b2;
 }
-
 header .header-container .navbar ul {
   list-style: none;
 }
@@ -67,11 +82,10 @@ header .header-container .navbar ul li a {
   font-weight: 500;
   line-height: normal;
 }
-header .header-container .navbar ul .follow-us{
+header .header-container .navbar ul .follow-us {
   padding: 10px 20px;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
-
 }
 header .header-container .navbar ul li a .fa-brands {
   margin-left: 5px;
@@ -79,4 +93,53 @@ header .header-container .navbar ul li a .fa-brands {
 }
 header .header-container .navbar ul li a .fa-youtube {
   color: #f61c0d;
+}
+
+/* banner part start */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-container .banner-content {
+  width: 50%;
+  background-image: url("./../img/Group\ 14.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px; 
+}
+.banner-container .banner-content h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-container .banner-content h1 {
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.banner-container .banner-content p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.banner-container .banner-content p span {
+  margin-right: 10px;
+  color: #ff42a5;
+}
+.banner-container .banner-content button{
+    margin-top: 20px;
+}
+.banner-container .banner-content .btn-primary {
+  background-color: #ff42a5;
+}
+.banner-container .banner-content .btn-normal {
+  background: #4ec5f7;
+}
+.banner-container .banner-img {
+  width: 50%;
+}
+.banner-container .banner-img img {
+  width: 100%;
 }
