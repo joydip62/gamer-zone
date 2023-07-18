@@ -1,0 +1,28 @@
+/* Desktop */
+@media screen and (min-width: 993px) and (max-device-width: 1024px){
+
+}
+
+
+/* Tablet   */
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+}
+
+
+/* Mobile  */
+@media screen and (max-width: 767px){
+    
+    /* header section */
+    header .header-container {
+        flex-direction: column;
+    }
+    header .header-container .navbar {
+        
+    }
+    header .header-container .navbar ul li {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+      }
+}

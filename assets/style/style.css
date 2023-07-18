@@ -1,0 +1,82 @@
+/* gloval css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #0b0223;
+  font-style: normal;
+  line-height: normal;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.gradient-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* header part */
+header {
+  padding: 30px;
+}
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-container .logo {
+  display: flex;
+  align-items: center;
+}
+header .header-container .logo img {
+  width: 100%;
+  margin-right: 10px;
+}
+header .header-container .logo h3 {
+  font-size: 45px;
+  font-weight: 700;
+}
+header .header-container .logo h3 span {
+  color: #f948b2;
+}
+
+header .header-container .navbar ul {
+  list-style: none;
+}
+header .header-container .navbar ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+header .header-container .navbar ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+header .header-container .navbar ul .follow-us{
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+
+}
+header .header-container .navbar ul li a .fa-brands {
+  margin-left: 5px;
+  font-size: 18px;
+}
+header .header-container .navbar ul li a .fa-youtube {
+  color: #f61c0d;
+}
