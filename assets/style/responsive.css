@@ -23,11 +23,19 @@
   .banner-container .banner-content button {
     padding: 21px 35px;
   }
-
-
   .banner-container .banner-img {
     width: 100%;
   }
+
+    /* online games section */
+    .online-games .section-title h2 {
+        font-size: 40px;
+      }
+    .online-games .games-content {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+      }
+
 }
 
 /* Mobile  */
@@ -35,8 +43,6 @@
   /* header section */
   header .header-container {
     flex-direction: column;
-  }
-  header .header-container .navbar {
   }
   header .header-container .navbar ul li {
     display: block;
@@ -71,4 +77,14 @@
   .banner-container .banner-img {
     width: 100%;
   }
+
+  /* online games section */
+  .online-games .section-title h2 {
+    font-size: 40px;
+  }
+  .online-games .games-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
 }
