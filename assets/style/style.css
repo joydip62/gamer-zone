@@ -147,6 +147,50 @@ header .header-container .navbar ul li a .fa-youtube {
   width: 100%;
 }
 
+/* we are gamer  part */
+.we-are-gamer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding: 50px;
+}
+.we-are-gamer .we-are-gamer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.we-are-gamer .we-are-gamer-content .gaming-img {
+  width: 50%;
+}
+.we-are-gamer .we-are-gamer-content .gaming-img img {
+  width: 100%;
+}
+.we-are-gamer .we-are-gamer-content .content {
+  width: 50%;
+  text-align: right;
+}
+.we-are-gamer .we-are-gamer-content .content h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.we-are-gamer .we-are-gamer-content .content p {
+  color: #534c64;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.we-are-gamer .we-are-gamer-content .content button {
+  background-color: #ff42a5;
+  margin: 20px 0;
+}
+
+
 /* online-games part */
 .online-games {
   margin-top: 50px;
@@ -266,6 +310,7 @@ header .header-container .navbar ul li a .fa-youtube {
     rgba(255, 66, 165, 0.03) 100%
   );
   padding: 100px 0;
+  margin-top: 30px;
 }
 .gaming-items {
   display: flex;
@@ -332,8 +377,8 @@ footer a {
   color: #fff;
   margin-right: 20px;
 }
-footer div{
-margin: 30px 0;
+footer div {
+  margin: 30px 0;
 }
 footer .service a {
   font-size: 18px;
@@ -355,7 +400,6 @@ footer .terms-condition a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-
 }
 footer small {
   display: block;

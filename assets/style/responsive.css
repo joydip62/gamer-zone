@@ -32,6 +32,35 @@
     padding: 30px;
   }
 
+    /* we are gamer  part */
+.we-are-gamer {
+  padding: 0;
+}
+.we-are-gamer .we-are-gamer-content {
+
+}
+.we-are-gamer .we-are-gamer-content .gaming-img{
+  width: 50%;
+}
+.we-are-gamer .we-are-gamer-content img {
+  width: 100%;
+}
+.we-are-gamer .we-are-gamer-content .content {
+  width: 50%;
+  text-align: right;
+}
+.we-are-gamer .we-are-gamer-content .content h2 {
+  font-size: 38px;
+}
+.we-are-gamer .we-are-gamer-content .content p {
+  font-size: 16px;
+}
+.we-are-gamer .we-are-gamer-content .content button {
+  background-color: #ff42a5;
+  margin: 10px 0;
+  padding: 20px;
+}
+
   /* online games section */
   .online-games .section-title h2 {
     font-size: 40px;
@@ -131,6 +160,25 @@
     width: 100%;
     padding: 30px;
   }
+
+  /* we are gamer  part */
+.we-are-gamer {
+  padding: 0;
+}
+.we-are-gamer .we-are-gamer-content {
+  flex-direction: column;
+  
+}
+.we-are-gamer .we-are-gamer-content .gaming-img{
+  width: 100%;
+}
+.we-are-gamer .we-are-gamer-content img {
+  width: 100%;
+}
+.we-are-gamer .we-are-gamer-content .content {
+  width: 100%;
+  text-align: center;
+}
 
   /* online games section */
   .online-games .section-title h2 {
