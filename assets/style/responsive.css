@@ -4,11 +4,11 @@
 
 /* Tablet   */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    /* banner part start */
+  /* banner part start */
 
   .banner-container .banner-content {
     width: 100%;
-    padding: 30px 7px;
+    padding: 30px;
   }
   .banner-container .banner-content h2 {
     font-size: 35px;
@@ -20,22 +20,51 @@
     font-size: 16px;
     margin: 20px 0;
   }
+  .banner-container .banner-content .btn-group {
+    text-align: center;
+    display: inline-block;
+  }
   .banner-container .banner-content button {
-    padding: 21px 35px;
+    padding: 20px 30px;
   }
   .banner-container .banner-img {
     width: 100%;
+    padding: 30px;
   }
 
-    /* online games section */
-    .online-games .section-title h2 {
-        font-size: 40px;
-      }
-    .online-games .games-content {
-        grid-template-columns: repeat(2, 1fr);
-        text-align: center;
-      }
+  /* online games section */
+  .online-games .section-title h2 {
+    font-size: 40px;
+  }
+  .online-games .games-content {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
 
+  /* Play constantly style */
+  .play-instantly {
+  }
+  .play-instantly .play-container {
+    width: 100%;
+    text-align: right;
+  }
+  .play-instantly .play-container .content {
+    width: 100%;
+  }
+  .play-instantly .play-container h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .play-instantly .play-img {
+    width: 100%;
+  }
+  .play-instantly .play-img .big-img {
+    width: 100%;
+  }
+  .play-instantly .play-img .small-img {
+    width: 50%;
+    left: -20%;
+  }
 }
 
 /* Mobile  */
@@ -60,22 +89,28 @@
   }
   .banner-container .banner-content h2 {
     font-size: 35px;
-    text-align: center; 
+    text-align: center;
   }
   .banner-container .banner-content h1 {
     font-size: 65px;
-    text-align: center; 
+    text-align: center;
   }
   .banner-container .banner-content p {
     font-size: 16px;
     margin: 20px 0;
   }
 
+  .banner-container .banner-content .btn-group {
+    text-align: center;
+  }
+
   .banner-container .banner-content button {
     padding: 21px 28px;
   }
+
   .banner-container .banner-img {
     width: 100%;
+    padding: 30px;
   }
 
   /* online games section */
@@ -87,4 +122,32 @@
     text-align: center;
   }
 
+  /* Play constantly style */
+  .play-instantly {
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+  .play-instantly .play-container {
+  width: 100%;
+  text-align: center;
+}
+  .play-instantly .play-container .content {
+    width: 340px;
+    margin: auto;
+  }
+
+  .play-instantly .play-container h2 {
+    font-size: 40px;
+  }
+  .play-instantly .play-img {
+    width: 100%;
+  }
+  .play-instantly .play-img .big-img {
+    width: 88%;
+  }
+  .play-instantly .play-img .small-img {
+    width: 40%;
+    left: -1%;
+  }
 }
