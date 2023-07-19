@@ -72,6 +72,7 @@
 
   /* Play constantly style */
   .play-instantly {
+    padding-bottom: 40px;
   }
   .play-instantly .play-container {
     width: 100%;
@@ -93,6 +94,32 @@
   .play-instantly .play-img .small-img {
     width: 50%;
     left: -20%;
+  }
+
+  /* Play online style */
+  .play-online {
+    padding-bottom: 40px;
+  }
+  .play-online .play-container {
+    width: 100%;
+    text-align: left;
+  }
+  .play-online .play-container .content {
+    width: 100%;
+  }
+  .play-online .play-container h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .play-online .play-img {
+    width: 100%;
+  }
+  .play-online .play-img .big-img {
+    width: 100%;
+  }
+  .play-online .play-img .small-img {
+    width: 50%;
+    right: -20%;
   }
 
   /* gaming item section */
@@ -194,6 +221,7 @@
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
+    padding-bottom: 40px;
   }
   .play-instantly .play-container {
     width: 100%;
@@ -203,6 +231,7 @@
     width: 340px;
     margin: auto;
   }
+
 
   .play-instantly .play-container h2 {
     font-size: 40px;
@@ -216,6 +245,36 @@
   .play-instantly .play-img .small-img {
     width: 40%;
     left: -1%;
+  }
+
+  /* Play online style */
+  .play-online {
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .play-online .play-container {
+    width: 100%;
+    text-align: center;
+  }
+  .play-online .play-container .content {
+    width: 340px;
+    margin: auto;
+  }
+
+  .play-online .play-container h2 {
+    font-size: 39px;
+  }
+  .play-online .play-img {
+    width: 100%;
+  }
+  .play-online .play-img .big-img {
+    width: 88%;
+  }
+  .play-online .play-img .small-img {
+    width: 40%;
+    right: -1%;
   }
 
   /* gaming item section */

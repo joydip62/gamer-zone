@@ -190,7 +190,6 @@ header .header-container .navbar ul li a .fa-youtube {
   margin: 20px 0;
 }
 
-
 /* online-games part */
 .online-games {
   margin-top: 50px;
@@ -269,6 +268,7 @@ header .header-container .navbar ul li a .fa-youtube {
   justify-content: space-between;
   align-items: center;
   gap: 100px;
+  padding-bottom: 120px;
 }
 .play-instantly .play-container {
   width: 50%;
@@ -300,6 +300,48 @@ header .header-container .navbar ul li a .fa-youtube {
   position: absolute;
   top: 55%;
   left: -18%;
+}
+
+/* Play constantly style */
+.play-online {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding-bottom: 120px;
+}
+.play-online .play-container {
+  width: 50%;
+  text-align: left;
+}
+.play-online .play-container .content {
+  width: 350px;
+  margin: auto;
+}
+.play-online .play-container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.play-online .play-container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.play-online .play-img {
+  width: 50%;
+  text-align: left;
+  position: relative;
+}
+.play-online .play-img .big-img img {
+  width: 100%;
+}
+.play-online .play-img .small-img {
+  position: absolute;
+  top: 62%;
+  /* left: -18%; */
+  right: -27%;
 }
 
 /* gaming item section */
