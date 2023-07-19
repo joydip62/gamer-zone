@@ -244,6 +244,7 @@ font-size: 16px;
     gap: 50px;
     justify-content: center;
     padding-bottom: 40px;
+    margin-top: 0;
   }
   .play-instantly .play-container {
     width: 100%;
@@ -330,7 +331,14 @@ font-size: 16px;
     padding: 30px 0;
   }
   .gaming-items .item {
-    flex-basis: 165px;
+    flex-basis: 100px;
+  }
+  .gaming-items .item h4{
+    font-size: 12px;
+  }
+  .gaming-items .item img{
+    width: 30px;
+    margin-right: 10px;
   }
 
   /* footer section */
