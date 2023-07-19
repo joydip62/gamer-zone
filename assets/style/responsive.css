@@ -65,6 +65,25 @@
     width: 50%;
     left: -20%;
   }
+
+  /* gaming item section */
+  .gaming {
+    padding: 30px 0;
+  }
+  .gaming-items .item {
+    flex-basis: 220px;
+  }
+
+  /* footer section */
+  footer {
+    padding: 100px 120px;
+  }
+  footer .service a {
+    line-height: 40px;
+  }
+  footer .terms-condition a {
+    line-height: 40px;
+  }
 }
 
 /* Mobile  */
@@ -129,9 +148,9 @@
     justify-content: center;
   }
   .play-instantly .play-container {
-  width: 100%;
-  text-align: center;
-}
+    width: 100%;
+    text-align: center;
+  }
   .play-instantly .play-container .content {
     width: 340px;
     margin: auto;
@@ -149,5 +168,29 @@
   .play-instantly .play-img .small-img {
     width: 40%;
     left: -1%;
+  }
+
+  /* gaming item section */
+  .gaming {
+    padding: 30px 0;
+  }
+  .gaming-items .item {
+    flex-basis: 165px;
+  }
+
+  /* footer section */
+  footer {
+    padding: 100px 30px;
+  }
+  footer .service a {
+    line-height: 40px;
+  }
+  footer .social-media a {
+    margin: 35px;
+    text-align: center;
+    line-height: 55px;
+  }
+  footer .terms-condition a {
+    line-height: 40px;
   }
 }

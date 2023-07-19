@@ -230,7 +230,7 @@ header .header-container .navbar ul li a .fa-youtube {
   width: 50%;
   text-align: right;
 }
-.play-instantly .play-container .content{
+.play-instantly .play-container .content {
   width: 350px;
   margin: auto;
 }
@@ -256,4 +256,115 @@ header .header-container .navbar ul li a .fa-youtube {
   position: absolute;
   top: 55%;
   left: -18%;
+}
+
+/* gaming item section */
+.gaming {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding: 100px 0;
+}
+.gaming-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
+.gaming-items .item {
+  flex-basis: 248px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+.gaming-items .item:hover {
+  border: 1px solid #ff42a5;
+}
+.gaming-items .item:hover h4 {
+  color: #ff42a5;
+}
+.gaming-items .item img {
+  margin-right: 15px;
+}
+.gaming-items .item h4 {
+  color: #0b0223;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* footer section */
+
+footer {
+  background: #0b0223;
+  text-align: center;
+  padding: 100px;
+}
+footer .footer-logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 50px; */
+}
+footer .footer-logo img {
+  margin-right: 10px;
+  text-align: center;
+}
+footer .footer-logo h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+footer .footer-logo h3 span {
+  color: #f948b2;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+footer div{
+margin: 30px 0;
+}
+footer .service a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer .social-media a {
+  font-size: 30px;
+}
+footer .social-media a i {
+  color: #fff;
+}
+
+footer .terms-condition a {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+footer small {
+  display: block;
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
